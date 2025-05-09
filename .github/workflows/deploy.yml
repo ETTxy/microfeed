@@ -1,5 +1,6 @@
 name: Deploy to Cloudflare Pages
 
+set NODE_OPTIONS=--openssl-legacy-provider
 on:
   # push:
   #  branches: ["dev-v1"]
